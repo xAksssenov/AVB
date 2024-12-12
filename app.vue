@@ -13,7 +13,6 @@ body {
   overflow-x: hidden;
   position: relative;
   height: 100%;
-  overflow: hidden;
   background-attachment: local;
 
   &::before {
