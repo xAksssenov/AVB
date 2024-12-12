@@ -4,16 +4,14 @@
   </NuxtLayout>
 </template>
 
-<script setup lang="ts"></script>
-
 <style lang="scss">
 body {
   font-family: sans-serif;
   margin: 0;
   overflow-x: hidden;
-  position: relative;
-  height: 100%;
-  background-attachment: local;
+  background: url('/public/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(47 53 59);
 
   &::before {
     content: '';
@@ -22,12 +20,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background:
-      linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 / 50%)),
-      url('/public/background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    transform: translateZ(0);
-    background-color: rgba(47 53 59);
+    background: rgba(0 0 0 / 55%);
     z-index: -1;
   }
 }
