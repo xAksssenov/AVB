@@ -41,7 +41,7 @@
     &__phone {
         &--number {
             text-decoration: none;
-            color: #80C31E;
+            color: #80c31e;
             font-size: 1.2rem;
             transition: all ease 0.3s;
 

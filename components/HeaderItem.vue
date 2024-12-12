@@ -59,7 +59,7 @@
 
         &--text {
             font-size: 18px;
-            color: #80C31E;
+            color: #80c31e;
             transition: all ease 0.3s;
 
             &:hover {
@@ -76,7 +76,7 @@
 
         &--number {
             text-decoration: none;
-            color: #80C31E;
+            color: #80c31e;
             transition: all ease 0.3s;
 
             &:hover {

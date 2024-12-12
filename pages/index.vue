@@ -3,8 +3,8 @@
         <section class="page__content">
             <h1 class="page__content--slogan">Чувство прекрасного - бесценно</h1>
             <p class="page__content--description">
-                Мы строим прекрасные дома, а нам создают новый, прекрасный сайт. Ещё
-                немного и Вы всё увидите.
+                Мы строим прекрасные дома, а нам создают новый, прекрасный сайт. Ещё немного и
+                Вы всё увидите.
             </p>
         </section>
     </main>
@@ -69,7 +69,7 @@ body {
 
     &__info {
         z-index: 10;
-        background: #2F353B;
+        background: #2f353b;
         color: white;
         padding: 40px 20px;
         text-align: center;
