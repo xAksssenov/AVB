@@ -92,16 +92,12 @@
 @media (max-width: 768px) {
     .header__container {
         margin: 0 20px;
-        align-items: center;
+        align-items:center;
     }
 
     .header__logo {
         width: 120px;
         height: 60px;
-    }
-
-    .header__phone {
-        margin-top: 10px;
     }
 }
 
