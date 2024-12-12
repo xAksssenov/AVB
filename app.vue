@@ -11,6 +11,7 @@ body {
   overflow-x: hidden;
   background: url('/public/background.jpg') no-repeat center center fixed;
   background-size: cover;
+  background-color: rgba(47 53 59);
 
   &::before {
     content: '';
