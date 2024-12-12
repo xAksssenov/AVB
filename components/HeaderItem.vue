@@ -29,7 +29,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: rgba(47 53 59 / 85%);
+    background-color: rgba(47 53 59 / 80%);
     backdrop-filter: blur(10px);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
