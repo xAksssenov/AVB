@@ -1,0 +1,17 @@
+{
+    "singleQuote": true,
+    "trailingComma": "all",
+    "endOfLine": "auto",
+    "printWidth": 95,
+    "tabWidth": 4,
+    "semi": false,
+    "bracketSpacing": true,
+    "overrides": [
+        {
+            "files": "app.vue",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

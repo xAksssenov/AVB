@@ -1,0 +1,12 @@
+{
+    "extends": ["stylelint-config-standard-scss", "stylelint-config-recommended-vue"],
+    "rules": {
+        "scss/dollar-variable-pattern": null,
+        "selector-class-pattern": null,
+        "scss/at-function-pattern": null,
+        "function-no-unknown": null,
+        "no-empty-source": null,
+        "at-rule-no-unknown": null,
+        "media-feature-range-notation": null
+    }
+}
