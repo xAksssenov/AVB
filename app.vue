@@ -12,6 +12,7 @@ body {
   background: url('/public/background.jpg') no-repeat center center fixed;
   background-size: cover;
   background-color: rgba(47 53 59);
+  background-attachment: fixed;
 
   &::before {
     content: '';
@@ -21,7 +22,7 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(0 0 0 / 55%);
-    z-index: 1;
+    z-index: -1;
   }
 }
 </style>

@@ -92,7 +92,7 @@
 @media (max-width: 768px) {
     .header__container {
         margin: 0 20px;
-        align-items:center;
+        align-items: center;
     }
 
     .header__logo {
