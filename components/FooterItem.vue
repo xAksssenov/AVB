@@ -19,7 +19,7 @@
 <style scoped lang="scss">
 .footer {
     position: relative;
-    background-color: rgba(47 53 59 / 80%);
+    background-color: rgba(47 53 59 / 65%);
     backdrop-filter: blur(10px);
     color: white;
     padding: 10px;

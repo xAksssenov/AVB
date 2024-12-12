@@ -88,6 +88,10 @@ definePageMeta({
     .page__content--description {
         font-size: 1.1rem;
     }
+
+    .page__content {
+        margin-top: 25vh;
+    }
 }
 
 @media (max-width: 480px) {
