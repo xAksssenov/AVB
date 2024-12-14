@@ -43,8 +43,8 @@
     }
 
     &__logo {
-        width: 160px;
-        height: 80px;
+        width: 190px;
+        height: 90px;
         transition: all ease 0.3s;
 
         &:hover {
@@ -75,6 +75,7 @@
         display: flex;
 
         &--number {
+            font-size: 22px;
             text-decoration: none;
             color: #80c31e;
             transition: all ease 0.3s;
@@ -103,12 +104,12 @@
 
 @media (max-width: 480px) {
     .header__logo {
-        width: 100px;
-        height: 50px;
+        width: 135px;
+        height: 75px;
     }
 
     .header__phone--number {
-        font-size: 1rem;
+        font-size: 18px;
     }
 }
 </style>
