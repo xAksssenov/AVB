@@ -1,6 +1,6 @@
 {
-  "name": "Архитектурно-строительная компания",
-  "private": true,
+  "name": "avb-stroy",
+  "private": false,
   "type": "module",
   "scripts": {
     "build": "nuxt build",

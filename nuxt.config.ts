@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     app: {
         head: {
-            title: 'avb-stroy',
+            title: 'Архитектурно-строительная компания',
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1.0, user-scalable=no',
             meta: [
@@ -17,8 +17,7 @@ export default defineNuxtConfig({
                     content:
                         'Мы предоставляем услуги архитектуры и строительства высокого качества.',
                 },
-                { property: 'og:image', content: '/logo.png' },
-                { name: 'theme-color', content: '#ffffff' },
+                { property: 'og:image', content: '/public/logo.png' },
             ],
             link: [{ rel: 'icon', type: 'image/png', href: '/logo.png' }],
         },
@@ -31,11 +30,7 @@ export default defineNuxtConfig({
         },
     ],
     devtools: { enabled: true },
-    modules: [
-        '@nuxtjs/eslint-module',
-        '@nuxtjs/stylelint-module',
-        'nuxt-svgo',
-    ],
+    modules: ['@nuxtjs/eslint-module', '@nuxtjs/stylelint-module', 'nuxt-svgo'],
     svgo: {
         autoImportPath: '~/assets/icons/',
     },
